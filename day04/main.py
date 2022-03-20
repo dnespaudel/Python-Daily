@@ -43,7 +43,8 @@ print(game_choices[computer_choices])
 if player_choices == computer_choices:
     print("It's a tie.")
 
-elif (player_choices == 0 and computer_choices == 2) or (player_choices == 1 and computer_choices == 0) or (player_choices == 2 and computer_choices == 1):
+elif (player_choices == 0 and computer_choices == 2) or (player_choices == 1 and computer_choices == 0) \
+        or (player_choices == 2 and computer_choices == 1):
     print("You win.")
 else:
     print("You lose.")
